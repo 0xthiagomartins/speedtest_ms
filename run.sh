@@ -1,2 +1,2 @@
 echo Starting Nameko.
-exec nameko run --config src/config.yaml src.service
+exec nameko run --config src/config.yml src.service

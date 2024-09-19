@@ -3,9 +3,6 @@ import speedtest
 from loguru import logger
 
 
-logger.add("speedtest.log")
-
-
 class RPCSpeedTest:
     name = "speedtest"
 

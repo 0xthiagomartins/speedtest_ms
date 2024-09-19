@@ -1,4 +1,4 @@
-from nameko.extensions import ClusterRpcProxy
+from nameko.standalone.rpc import ClusterRpcProxy
 
 
 def test_rpc_speedtest(rabbitmq_config):

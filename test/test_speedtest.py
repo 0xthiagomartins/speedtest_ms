@@ -1,8 +1,8 @@
-from src.service import SpeedtestService
+from src.service import RPCSpeedTest
 
 
 def test_run_speedtest():
-    service = SpeedtestService()
+    service = RPCSpeedTest()
     result = service.run_speedtest()
     assert "download" in result
     assert "upload" in result
